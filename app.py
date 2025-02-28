@@ -136,5 +136,5 @@ def delete_template(template_id):
     return jsonify({"msg": "Template deleted"}), 200
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
